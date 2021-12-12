@@ -1,0 +1,245 @@
+* {
+    margin: 0;
+    /* padding:0; */
+}
+
+html {
+    font-family: "Helvetica Neue";
+}
+
+.navbar {
+    background-color: #C4E2FF;
+    display: flex;
+    padding-left: 40px;
+    padding-right: 40px;
+    justify-content: space-around;
+    position: fixed;
+    width: 100%;
+    border-bottom: 1px solid black;
+}
+
+#bulet {
+    width: 40px;
+    /* align-self: center; */
+}
+
+#medi {
+    width: 120px;
+    align-self: center;
+}
+
+#logomed {
+    width: 180px;
+    align-self: center;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+    font-family: 'Martel Sans', sans-serif, "Helvetica Neue";
+    font-weight: 400;
+}
+
+.navbar ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 80%;
+}
+
+.navbar li {
+    padding: 20px;
+}
+
+#getstarted {
+    color: white;
+    background-color: black;
+    border: 1px solid black;
+    border-radius: 10em;
+    padding: 7px 16px 7px;
+    font-family: 'Martel Sans', sans-serif, "Helvetica Neue";
+    font-size: 14px;
+}
+
+.header {
+    padding: 33px 48px 30px;
+    background-color: #C4E2FF;
+    margin-top: 60px;
+    width: 100%;
+    box-sizing: inherit;
+    border-bottom: 1px solid #757575;
+}
+
+.header h1 {
+    font-family: "gt-super", Georgia, Cambria;
+    font-weight: 200;
+    font-size: 70px;
+    letter-spacing: -0.05em;
+    line-height: 74px;
+    width: 50%;
+    font-weight: 400;
+    box-sizing: inherit;
+
+}
+
+.header p {
+    font-family: 'Martel Sans', sans-serif, "Helvetica Neue";
+    ;
+    font-size: 16px;
+    padding: 5px 0px 30px;
+    width: 50%;
+
+}
+
+#startwriting {
+    color: black;
+    background-color: white;
+    padding: 7px 20px 7px;
+    border: 1px solid black;
+    border-radius: 10em;
+    font-family: 'Martel Sans', sans-serif, "Helvetica Neue";
+    ;
+    font-size: 16px;
+}
+
+main {
+    padding: 40px 0 16px;
+}
+
+.judulsection {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 12px;
+    letter-spacing: 0.083em;
+    /* padding-left: 48px; */
+    padding-bottom: 20px;
+}
+
+div.ava1 {
+    background-image: url(/Users/avinskasyaviendy/Documents/codeacademy/hah/80660.svg);
+    background-size: cover;
+    height: 10px;
+    width: 10px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 48px;
+}
+
+p#TOM.judulsection {
+    /* background-color: lemonchiffon; */
+    display: inline-block;
+}
+
+.trending {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    max-height: 300px;
+    width: 100%;
+    border-bottom: 1px solid #afafaf93;
+    justify-content: space-evenly;
+    padding-left: 48px;
+    padding-bottom: 40px;
+
+}
+
+.artikeltrending {
+    display: inline-flex;
+    width: 50%;
+}
+
+.artikeltrending span {
+    padding: 0px 20px 30px;
+
+}
+
+.artikeltrending div {
+    padding-top: 10px;
+}
+
+.trending h4 {
+    font-size: 13px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.trending h2 {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.trending span {
+    font-size: 30px;
+    color: #e6e6e6;
+    font-weight: 700;
+}
+
+.tanggal {
+    font-size: 13px;
+    font-weight: 300;
+    color: #757575;
+}
+
+.tanggal span {
+    font-size: 13px;
+    font-weight: 300;
+    color: #757575;
+}
+
+.titik {
+    display: inline;
+}
+
+
+.discover {
+    /* padding: 48px; */
+    /* box-sizing: inherit; */
+    border-bottom: 1px solid #afafaf93;
+    height: 160px;
+}
+
+p#juduldiscover.judulsection {
+    margin-bottom: 10px;
+    padding-left: 48px;
+}
+
+.discover a {
+    text-decoration: none;
+    color: gray;
+    font-size: 14px;
+    font-family: 'Martel Sans', sans-serif, "Helvetica Neue";
+    font-weight: 400;
+    border: 0.5px solid gainsboro;
+    padding: 1px 10px;
+    margin: 5px;
+}
+
+.discover ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    height: 70px;
+    flex-wrap: wrap;
+}
+
+.discover li {
+    padding-bottom: 0;
+    height: 20px;
+}
+
+span.duration {
+    margin-left: 0;
+    padding-left: 0;
+}
+
+#seeall {
+    font-family: "Helvetica";
+    font-size: 14px;
+    color: green;
+    padding: 40px;
+    border: none;
+    font-weight: 300;
+}
